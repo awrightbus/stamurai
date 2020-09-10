@@ -116,7 +116,7 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin-bottom: 8em;
     
 }
 /* rounding the speech therapist profile pic */
@@ -127,22 +127,45 @@ button:hover{
 /*centering the therapist section */
 
 .therapist_profile{
-    width: 20em;
+    width: 30em;
     padding-left: 5em;
 }
 
 /* spacing the therapist information */
 
 .therapist_profile h5{
-    padding-bottom: 10px
+    padding-bottom: 10px;
+    color:rgba(255, 144, 110, 0.5);
 }
 .therapist_profile h2{
-    padding-bottom: 10px
+    padding-bottom: 10px;
 }
 .therapist_profile p{
-    padding-bottom: 10px
+    padding-bottom: 10px;
 }
 .therapist_profile h4{
-    padding-bottom: 10px
+    padding-bottom: 10px;
 }
 
+/*centering video testimonial section */
+.video_testimonial{
+    text-align: center;
+}
+
+/* cnetering videos */
+.videoSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* spacing videos away from header */
+
+.videoHeader {
+    padding-bottom: 4em;
+}
+
+/* spacing videos away from each other*/
+.videoTestOne{
+    margin-right: 5em;
+}
