@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+
+
+/* putting all of my header components on line centered. */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+/* pointer turns into a cursor when hovering over logo */
+
+.logo{
+    cursor: pointer;
+}
+
+/* putting navigation links on one line */
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    /* all effects anything able to transition, next is the tranisiton duration , next ease define the delay and for how long */
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: #fed8b1;
+}
+
+button{
+    font-weight: 700;
+    font-size: medium;
+    padding: 15px 60px;
+    color: white;
+    background-color:rgb(255, 144, 110, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color:rgba(255, 165, 0,0.8);
+}
+
+/*creating the hero section for the site */
+.hero_image{
+    filter: blur(1px); 
+    width: 100%;
+}
+
+/* setting positioning for banner */
+.hero_image_container{
+    /* positon the banner itself */
+    width: 100vw;
+    height: 60vh;
+
+    /* center the banner */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* center the text */
+    text-align: center;
+
+    /*inserting the background image */
+    background-image: url(images/hero_stamurai1.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background:#ffebe5
+
+}
+
+/* styling the banner text */
+
+
+.hero_text h1{
+    font-size: 3em;/* Fallback color */
+    font-family: "Montserrat",sans-serif;
+    background:#ffebe5;
+}
+
+
+.hero_cta h3{
+    color: gray;
+    background:#ffebe5;
+}
+/*positioning  the speech therapist section */
+.speech_therapist{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+/* rounding the speech therapist profile pic */
+.therapist{
+    border: none;
+    border-radius: 45%;
+}
+/*centering the therapist section */
+
+.therapist_profile{
+    width: 20em;
+    padding-left: 5em;
+}
+
+/* spacing the therapist information */
+
+.therapist_profile h5{
+    padding-bottom: 10px
+}
+.therapist_profile h2{
+    padding-bottom: 10px
+}
+.therapist_profile p{
+    padding-bottom: 10px
+}
+.therapist_profile h4{
+    padding-bottom: 10px
+}
+
